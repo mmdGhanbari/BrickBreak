@@ -2,11 +2,11 @@ package main
 
 import (
     "fmt"
-    bb "brickBreak_server/source"
+    BB "brickBreak_server/source"
 )
 
 func main() {
-    go bb.RunServer()
+    go BB.RunServer()
 
     var input string
     fmt.Scanln(&input)
